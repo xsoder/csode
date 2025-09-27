@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, rgba(101, 76, 168, 1),  rgba(127,127,127,1), rgba(246, 87, 169, 0.8));
+    line-height: 1px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+#post {
+    position: relative;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    background-image: linear-gradient(to right, rgba(101, 76, 168, 1),  rgba(127,127,127,1), rgba(246, 87, 169, 0.8));
+    color: #161616;
+    cursor: url("assets/peach.png"), auto;
+    border-radius: 8px;
+    animation: gra 5s infinite;
+    animation-direction: reverse;
+    -webkit-animation: gra 5s infinite;
+    -webkit-animation-direction: reverse;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    font-size: 25px;
+    border: 2px solid white;
+}
+
+@keyframes gra {
+    0% {
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ff670f), color-stop(21%, #ff670f), color-stop(56%, #ffffff), color-stop(88%, #0eea57));
+        background: -webkit-linear-gradient(-45deg, #ff670f 0%, #ff670f 21%, #ffffff 56%, #0eea57 88%);
+        background: linear-gradient(to right, rgba(101, 76, 168, 1),  rgba(127,127,127,1), rgba(246, 87, 169, 0.8));
+    }
+    50% {
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ff670f), color-stop(10%, #ff670f), color-stop(40%, #ffffff), color-stop(60%, #0eea57));
+        background: -webkit-linear-gradient(-45deg, #ff670f 0%, #ff670f 10%, #ffffff 40%, #0eea57 60%);
+        background: linear-gradient(to right, rgba(101, 76, 168, 1),  rgba(127,127,127,1), rgba(246, 87, 169, 0.8));
+    }
+    100% {
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ff670f), color-stop(5%, #ff670f), color-stop(10%, #ffffff), color-stop(40%, #0eea57));
+        background: -webkit-linear-gradient(-45deg, #ff670f 0%, #ff670f 5%, #ffffff 10%, #0eea57 40%);
+        background: linear-gradient(to right, rgba(101, 76, 168, 1),  rgba(127,127,127,1), rgba(246, 87, 169, 0.8));
+    }
+  }
+
+#title {
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+body {
+    background: #161616;
+    font-family: "Iosevka";
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: url("assets/Penger.png"), auto;
+}
+
+#mascot {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+#button {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background-image: linear-gradient(to right, rgba(101, 76, 168, 1),  rgba(127,127,127,1), rgba(246, 87, 169, 0.8));
+    color: #FFFFFF;
+    border-radius: 50px;
+    cursor: url("assets/peach.png"), auto;
+}
+
